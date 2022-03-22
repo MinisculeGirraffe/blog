@@ -1,7 +1,13 @@
 .markdown {
-  @apply text-base leading-relaxed;
+  @apply text-base leading-relaxed text-stone-50/75;
+}
+.markdown a {
+  @apply text-blue-900 font-bold
 }
 
+.markdown p code {
+  @apply bg-black rounded-sm text-white
+}
 .markdown p,
 .markdown ul,
 .markdown ol,
